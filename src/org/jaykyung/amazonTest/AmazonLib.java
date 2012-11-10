@@ -704,7 +704,7 @@ public class AmazonLib {
 			e.printStackTrace();
 		}
 	}
-	//** utility - parse WebElement name to get locator type
+	//** utility - parse WebElement name to get locator type...
 	public String parseLocatorType(String locator){
 		if(locator.toLowerCase().contains("id")){
 			return "id";
@@ -720,6 +720,5 @@ public class AmazonLib {
 			return null;
 		}
 	}
-	
-	
+		
 }
